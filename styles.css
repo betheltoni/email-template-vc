@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Manrope:wght@500&family=Raleway&display=swap');
+
+body{
+    /* margin: 0 4%; */
+    background-color: #2A431D;
+    background-image: url(./images/group.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    margin: 5% 4%;
+}
+.logo-img{
+    width: 300px;
+    height: 34px;
+}
+
+.rectangle{
+    height: 40px;
+    margin-left: 4.5%;
+}
+.welcome{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #ffffff;
+    line-height: 53px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    font-size: 58px;
+    height: 54px;
+    margin-left: 4px;
+    
+}
+
+.backdrop{
+    margin: 8% 4%;
+    background: linear-gradient(180deg, #FCD469 0%, #F0BD5F 100%), #EDBB5C;
+    border-radius: 8px;
+    transform: matrix(1, -0.03, 0.02, 1, 0, 0);
+    height: 500px;
+}
+
+.email-text{
+    background-color: #ffffff;
+    transform: rotate(2deg);
+    height: 500px;
+    border-radius: 8px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.text{
+    padding-top: 100px;
+    margin: 0 2%;
+}
+.nb{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+}
+h2{
+    font-size: 30px;
+    line-height: 22px;
+}
+.email-body-text{
+    font-size: 20px;
+    line-height: 22px;
+}
+.register-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: 7px 16px;
+    width: 134px;
+    height: 56px;
+    background: #3D763D;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 25px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+}
+hr{
+    opacity: 0.5;
+    border-top: 1px dashed #FFFFFF;
+    border-bottom: none;
+}
+.disclaimer{
+    padding: 20px 0 60px 0;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Manrope';
+    font-style: normal;
+    line-height: 27px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    margin: 0 4%;
+}
